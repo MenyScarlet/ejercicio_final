@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Estilo Botones de Inicio -->
+
+    <style name="DimenBarraInicio">
+
+
+
+
+
+    </style>
+
+
+    <style name="BotonesInicio" parent="DimenBarraInicio" >
+
+       <item name="android:textColor">@color/colorBlanco</item>
+       <item name="android:background">@drawable/fondo_boton_inicio</item>
+       <item name="android:shadowColor">@color/colorNegro</item>
+        <item name="android:textSize">@dimen/d10</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/d65</item>
+        <item name="android:layout_height">@dimen/d20</item>
+        <item name="android:shadowDx">5dp</item>
+        <item name="android:shadowDy">0dp</item>
+        <item name="android:shadowRadius">5dp</item>
+        <item name="android:layout_margin">@dimen/d5</item>
+
+   </style>
+
+    <style name="SearchView" parent="DimenBarraInicio">
+
+        <item name="android:background">@drawable/fondo_busqueda</item>
+        <item name="android:layout_width">@dimen/d65</item>
+        <item name="android:layout_height">@dimen/d20</item>
+        <item name="android:shadowDx">5dp</item>
+        <item name="android:shadowDy">0dp</item>
+        <item name="android:shadowRadius">5dp</item>
+        <item name="android:layout_margin">@dimen/d5</item>
+
+    </style>
+
+    <!-- Fondo Layout -->
+    <style name="estiloLayout">
+        <item name="android:background">@drawable/fonfo_layout</item>
+        <item name="android:layout_margin">@dimen/d5</item>
+        <item name="android:padding">@dimen/d5</item>
+
+    </style>
+
+</resources>
